@@ -1,0 +1,12 @@
+
+.body {
+  background: rgb(24, 10, 41);
+  height: 100vh;
+}
+
+.body h1{
+  font-size: 5rem;
+  color: cornsilk;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}

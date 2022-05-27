@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito",sans-serif;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(24, 10, 41);
+}
+
+.title {
+  color: #eee;
+  margin: 20px 20px;
+}
+
+.form {
+  background: rgb(24, 10, 41);
+  width: 100%;
+  max-width: 480px;
+  padding: 0.5rem;
+  border-radius: 1.5%;
+  color: white;
+  font-size: 1rem;
+  max-width: 350px;
+  margin: 0px auto;
+}
+
+.field {
+  padding-bottom: 0.5rem;
+}
+
+.field label {
+  display: block;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.field input {
+  color: white;
+  font-size: 1rem;
+  line-height: 0.8rem;
+  background: none;
+  border-width: thin;
+  border-color: transparent transparent rgba(230, 238, 244, 0.5);
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 0.5rem;
+  width: 100%;
+  color: black;
+  
+}
+
+.actions button {
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  background: rgb(0, 235, 132);
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
+
+.actions button:hover {
+  cursor: pointer;
+  background-color: rgb(133, 133, 133);
+}
+
+.verSenha {
+  position: absolute;
+  top: 26px;
+  right: 10px;
+}
+
+p {
+  text-align: center;
+  margin: 10px;
+}

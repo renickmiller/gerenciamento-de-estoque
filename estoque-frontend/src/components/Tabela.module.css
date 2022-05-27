@@ -1,0 +1,57 @@
+.entrada {
+  background-color: white;
+  width: 100%;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid #4CAF50;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.editar {
+  background-color: white ;
+  width: 50px;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid #008CBA;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.saida {
+  background-color: white ;
+  width: 100%;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid #DC143C;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.entrada:hover{
+  background-color: #4CAF50; 
+    color: white;
+}
+.editar:hover{
+  background-color: #008CBA; 
+    color: white;
+}
+
+.saida:hover{
+  background-color: #DC143C; 
+    color: white;
+}
+
+
+

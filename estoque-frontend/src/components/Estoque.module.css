@@ -1,0 +1,34 @@
+.newprodut{
+  width: 100%;
+  text-align: right;
+}
+
+.newprodut button{
+  margin: 10px;
+  margin-right: 40px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background: rgb(0, 235, 132);
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border: 2px solid #4CAF50;
+}
+
+.newprodut button:hover{
+  cursor: pointer;
+  background-color: #4CAF50; 
+  color: black;
+}
+
+.field {
+  display: block;
+  flex-direction: column;
+}
+
+.field input {
+  display: block;
+  flex-direction: column;
+}
